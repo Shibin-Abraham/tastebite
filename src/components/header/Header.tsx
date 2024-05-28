@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <div className="w-full h-20 flex items-center justify-between">
-                <h1 className="font-dancing text-5xl font-extrabold">Tastebite</h1>
+                <img className="w-[110px] h-[34px] lg:w-[161px] lg:h-[50px]" src="https://fabrx.co/preview/tastebite/assets/images/brands/brand4.svg" />
                 <nav className="hidden lg:block lg:w-2/4 h-full">
                     <ul className="flex items-center justify-evenly text-base font-medium w-full h-full">
                         <li>Home Page</li>
@@ -37,8 +37,8 @@ const Header = () => {
                     <li className="w-full mt-3 mb-3">Buy</li>
                 </ul>
             </div>
-            <div className={`w-full h-auto transition ease-in-out duration-500  ${nav && '-translate-y-60 lg:-translate-y-0'}`}>
-                <img className="w-full h-auto lg:w-[50%] rounded-t-2xl" src="https://fabrx.co/preview/tastebite/assets/images/menus/menu1.jpg" alt="" />
+            <div className={`lg:flex w-full h-auto transition ease-in-out duration-500  ${!nav && '-translate-y-60 lg:-translate-y-0'}`}>
+                <img className="w-full h-full md:w-[696px] md:h-[522px] lg:w-[546px] lg:h-[410px] rounded-t-2xl" src="https://fabrx.co/preview/tastebite/assets/images/menus/menu1.jpg" alt="" />
                 <div className="w-full h-[10rem] lg:w-[50%] rounded-b-2xl bg-[#e4f1ff]">
 
                 </div>
