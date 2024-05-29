@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        dancing: ['"Dancing Script"', 'cursive']
+        "dancing": ['"Dancing Script"', 'cursive'],
+        "playfair-display": ['Playfair Display', 'serif']
       }
     },
   },
