@@ -37,7 +37,7 @@ const Header = () => {
                     <li className="w-full mt-3 mb-3">Buy</li>
                 </ul>
             </div>
-            <div className={`lg:flex justify-center w-full h-[18rem] sm:h-96 transition ease-in-out duration-500 lg:h-[410px] xl:h-[30rem]  ${!nav && '-translate-y-60 lg:-translate-y-0'}`}>
+            <div className={`lg:flex justify-center lg:mt-[5rem] w-full h-[18rem] sm:h-96 transition ease-in-out duration-500 lg:h-[410px] xl:h-[30rem]  ${!nav && '-translate-y-60 lg:-translate-y-0'}`}>
                 <img className="w-full h-full lg:mt-1 rounded-t-2xl  md:h-[522px] lg:w-[546px] lg:h-[410px] lg:rounded-l-2xl lg:rounded-tr-none xl:w-[59%] xl:h-full" src="https://fabrx.co/preview/tastebite/assets/images/menus/menu1.jpg" alt="" />
                 <div className="w-full h-full rounded-b-2xl bg-[#e4f1ff] lg:w-[50%] lg:mt-1 lg:rounded-r-2xl lg:rounded-bl-none lg:flex lg:flex-col items-center justify-center">
                     <div className="ml-6 pt-6 lg:pt-0">
