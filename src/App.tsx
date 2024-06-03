@@ -1,6 +1,7 @@
 import Header from "./components/header/Header"
 import Main from "./components/header/Main"
 import Category from "./components/categories/Category"
+import Subscription from "./components/subscription/Subscription"
 function App() {
 
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <Main />
         <Category />
+        <Subscription />
       </div>
     </div>
   )

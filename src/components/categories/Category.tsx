@@ -18,18 +18,18 @@ const Category = () => {
     return (
         <div className="mt-5 w-full">
             <h5 className="text-[28px] font-playfair-display font-semibold lg:text-[34px]">Popular Categories</h5>
-            <div className="w-full mt-6 flex flex-row items-center justify-between flex-wrap">
+            <div className="w-full mt-3 flex flex-row items-center justify-between flex-wrap">
                 {
                     categories.map((data, index) => {
 
                         return (
                             <>
                                 {
-                                    index < 6 ? <div className="flex flex-col items-center justify-center group">
+                                    index < 6 ? <div className="flex flex-col items-center justify-center mt-4 group">
                                         <div className="w-[8rem] h-[8rem] md:w-[9rem] md:h-[9rem] lg:w-[11rem] lg:h-[11rem] bg-slate-50 rounded-full flex items-center justify-center overflow-hidden">
                                             <img className="w-full h-auto object-cover scale-125 group-hover:scale-150 transition duration-1000" src={data.strCategoryThumb} alt="category image" />
                                         </div>
-                                        <p className="text-base font-semibold">{data.strCategory}</p>
+                                        <p className="text-base font-semibold group-hover:text-[#ff642f] transition duration-300">{data.strCategory}</p>
                                     </div> : null
                                 }
 
