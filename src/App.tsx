@@ -1,6 +1,6 @@
 import Header from "./components/header/Header"
 import Main from "./components/header/Main"
-
+import Category from "./components/categories/Category"
 function App() {
 
   return (
@@ -8,6 +8,7 @@ function App() {
       <div className="max-w-[95%] h-screen lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px]">
         <Header />
         <Main />
+        <Category />
       </div>
     </div>
   )
