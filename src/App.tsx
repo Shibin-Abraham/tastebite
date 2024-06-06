@@ -2,6 +2,7 @@ import Header from "./components/header/Header"
 import Main from "./components/header/Main"
 import Category from "./components/categories/Category"
 import Subscription from "./components/subscription/Subscription"
+import HandPicked from "./components/Specialsection/HandPicked"
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
         <Main />
         <Category />
         <Subscription />
+        <HandPicked />
       </div>
     </div>
   )
