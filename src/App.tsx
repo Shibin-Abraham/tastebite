@@ -3,6 +3,7 @@ import Main from "./components/header/Main"
 import Category from "./components/categories/Category"
 import Subscription from "./components/subscription/Subscription"
 import HandPicked from "./components/Specialsection/HandPicked"
+import LatestRecipes from "./components/Specialsection/LatestRecipes"
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
         <Category />
         <Subscription />
         <HandPicked />
+        <LatestRecipes />
       </div>
     </div>
   )
