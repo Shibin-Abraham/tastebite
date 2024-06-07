@@ -12,7 +12,7 @@ const LatestRecipes = () => {
     const [latestRecipes, setLatestRecipes] = useState<latestRecipes[]>([])
 
     useEffect(() => {
-        const url = "https://www.themealdb.com/api/json/v1/1/search.php?f=e"
+        const url = "https://www.themealdb.com/api/json/v1/1/search.php?f=f"
         axios.get(url).then(response => {
             setLatestRecipes(response.data.meals)
         })
@@ -24,11 +24,11 @@ const LatestRecipes = () => {
                 {
                     latestRecipes.map(data => {
                         return (
-                            <div className="w-[49%] sm:w-[40%] md:w-[30%] h-[13rem] rounded-md overflow-hidden group mt-8">
+                            <div className="w-[49%] sm:w-[40%] md:w-[30%] lg:w-[24%] h-[13rem] lg:h-[15rem] xl:w-[22%] rounded-md overflow-hidden group mt-8">
                                 <div className="w-full h-[90%] bg-slate-300 overflow-hidden rounded-md">
                                     <img className="w-full h-full group-hover:scale-110 transition duration-300" src={data.strMealThumb} alt="meals" />
                                 </div>
-                                <p className="font-semibold">{data.strMeal}</p>
+                                <p className="font-semibold group-hover:text-[#ff642f] transition duration-300">{data.strMeal}</p>
                             </div>
                         )
                     })
