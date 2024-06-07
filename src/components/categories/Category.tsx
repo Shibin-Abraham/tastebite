@@ -25,7 +25,7 @@ const Category = () => {
                         return (
                             <>
                                 {
-                                    index < 6 ? <div className="flex flex-col items-center justify-center mt-4 group">
+                                    index < 6 ? <div key={index} className="flex flex-col items-center justify-center mt-4 group">
                                         <div className="w-[8rem] h-[8rem] md:w-[9rem] md:h-[9rem] lg:w-[11rem] lg:h-[11rem] bg-slate-50 rounded-full flex items-center justify-center overflow-hidden">
                                             <img className="w-full h-auto object-cover scale-125 group-hover:scale-150 transition duration-1000" src={data.strCategoryThumb} alt="category image" />
                                         </div>
