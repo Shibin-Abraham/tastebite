@@ -31,7 +31,7 @@ const HandPicked = () => {
                                 <h5 className="text-4xl font-playfair-display font-semibold m-auto group-hover:mt-[1rem] transition-all duration-500">{data.strMeal}</h5>
                                 <div className="w-full h-full flex items-center justify-end">
                                     <span className="w-[8rem] lg:w-[10rem] border-[1px] border-black rounded-sm mr-6">
-                                        <p className="text-center font-medium lg:text-xl">Ingredients List</p>
+                                        <p className="text-center font-medium lg:text-xl">Ingredients</p>
                                     </span>
                                 </div>
                             </div>
