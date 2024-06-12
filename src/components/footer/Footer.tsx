@@ -1,15 +1,15 @@
 
 const Footer = () => {
     return (
-        <div className="w-full h-[30rem] bg-[#f9f9f9] grid grid-cols-1 grid-rows-[2fr 2fr 2fr 2fr] mt-[5rem]">
-            <div className="flex items-center">
-                <img className="w-[130px] h-[45px] lg:w-[161px] lg:h-[60px]" src="https://fabrx.co/preview/tastebite/assets/images/brands/brand4.svg" />
+        <div className="w-full h-[30rem] md:h-[27rem] bg-[#f9f9f9] grid grid-cols-1 grid-rows-[2fr,2fr,3fr,2fr] mt-[5rem] md:grid-rows-[3fr,3fr] md:grid-cols-[2fr,3fr]">
+            <div className="flex items-center md:row-start-1 md:row-end-2 md:items-end  md:ml-2">
+                <img className="w-[130px] h-[45px] md:w-[161px] md:h-[60px]" src="https://fabrx.co/preview/tastebite/assets/images/brands/brand4.svg" />
             </div>
-            <div>
-                <p className="text-slate-500">"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
+            <div className="md:col-start-1 md:col-end-2 md:text-lg  md:ml-2">
+                <p className="text-slate-500 md:text-lg mt-0">"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
             </div>
-            <div>
-                <div className="w-full h-14 flex flex-col justify-center">
+            <div className="md:col-star-2 md:col-end-3 md:row-start-1 md:row-end-3 md:h-full md:flex md:justify-around md:items-center">
+                <div className="w-full h-14 flex flex-col justify-center md:w-[25%]">
                     <div className="w-full pb-2 flex items-center justify-between">
                         <h6 className="font-semibold pl-1">Tastebite</h6>
                         <svg className="inline-block mr-2" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 9.333 5.333">
@@ -19,7 +19,7 @@ const Footer = () => {
 
                     <hr />
                 </div>
-                <div className="w-full h-14 flex flex-col justify-center">
+                <div className="w-full h-14 flex flex-col justify-center md:w-[25%]">
                     <div className="w-full pb-2 flex items-center justify-between">
                         <h6 className="font-semibold pl-1">Legal</h6>
                         <svg className="inline-block mr-2" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 9.333 5.333">
@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                     <hr />
                 </div>
-                <div className="w-full h-14 flex flex-col justify-center">
+                <div className="w-full h-14 flex flex-col justify-center md:w-[25%]">
                     <div className="w-full pb-2 flex items-center justify-between">
                         <h6 className="font-semibold pl-1">Follow</h6>
                         <svg className="inline-block mr-2" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 9.333 5.333">
@@ -38,9 +38,9 @@ const Footer = () => {
                     <hr />
                 </div>
             </div>
-            <div className="w-full">
+            <div className="w-full mt-4 md:col-start-1 md:col-end-3 md:flex md:flex-row md:justify-center md:h-[4rem]">
                 <div className="flex">
-                    <a href="" className="mr-6">
+                    <a href="#" className="mr-6">
                         <svg data-name="feather-icon/facebook" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                             <rect data-name="Bounding Box" width="20" height="20" fill="rgba(255,255,255,0)"></rect>
                             <path d="M6.667,18.333H3.333A.834.834,0,0,1,2.5,17.5V11.667H.833A.835.835,0,0,1,0,10.833V7.5a.834.834,0,0,1,.833-.833H2.5V5a5.006,5.006,0,0,1,5-5H10a.834.834,0,0,1,.833.833V4.167A.834.834,0,0,1,10,5H7.5V6.667H10A.833.833,0,0,1,10.808,7.7l-.833,3.334a.831.831,0,0,1-.809.631H7.5V17.5A.834.834,0,0,1,6.667,18.333Zm-5-10V10H3.333a.835.835,0,0,1,.834.833v5.834H5.833V10.833A.834.834,0,0,1,6.667,10h1.85l.416-1.667H6.667A.834.834,0,0,1,5.833,7.5V5A1.669,1.669,0,0,1,7.5,3.333H9.166V1.666H7.5A3.337,3.337,0,0,0,4.167,5V7.5a.835.835,0,0,1-.834.833Z" transform="translate(5 0.833)" fill="#7f7f7f"></path>
@@ -69,7 +69,7 @@ const Footer = () => {
                         </svg>
                     </a>
                 </div>
-                <p className="text-slate-500 text-xs pt-5">© 2020 Tastebite - All rights reserved</p>
+                <p className="text-slate-500 text-xs pt-5 md:pt-0">© 2020 Tastebite - All rights reserved</p>
             </div>
         </div>
     )
