@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <div className="w-full h-[30rem] md:h-[27rem] bg-[#f9f9f9] grid grid-cols-1 grid-rows-[2fr,2fr,3fr,2fr] mt-[5rem] md:grid-rows-[3fr,3fr] md:grid-cols-[2fr,3fr]">
-            <div className="flex items-center md:row-start-1 md:row-end-2 md:items-end  md:ml-2">
+            <div className="flex items-center md:row-start-1 md:row-end-2 md:items-end  md:ml-2 mb-[2rem]">
                 <img className="w-[130px] h-[45px] md:w-[161px] md:h-[60px]" src="https://fabrx.co/preview/tastebite/assets/images/brands/brand4.svg" />
             </div>
             <div className="md:col-start-1 md:col-end-2 md:text-lg  md:ml-2">
@@ -10,35 +10,54 @@ const Footer = () => {
             </div>
             <div className="md:col-star-2 md:col-end-3 md:row-start-1 md:row-end-3 md:h-full md:flex md:justify-around md:items-center">
                 <div className="w-full h-14 flex flex-col justify-center md:w-[25%]">
-                    <div className="w-full pb-2 flex items-center justify-between">
+                    <div className="w-full pb-2 flex md:flex-col items-center justify-between">
                         <h6 className="font-semibold pl-1">Tastebite</h6>
-                        <svg className="inline-block mr-2" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 9.333 5.333">
+                        <ul className="hidden md:block mt-1 md:ml-[1rem] md:text-gray-500">
+                            <li className="md:hover:text-[#ff642f]">About us</li>
+                            <li className="md:hover:text-[#ff642f]">Careers</li>
+                            <li className="md:hover:text-[#ff642f]">Contact us</li>
+                            <li className="md:hover:text-[#ff642f]">Feedback</li>
+                        </ul>
+                        <svg className="inline-block mr-2 md:hidden" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 9.333 5.333">
                             <path d="M1.138.2A.667.667,0,0,0,.2,1.138l4,4a.667.667,0,0,0,.943,0l4-4A.667.667,0,1,0,8.2.2L4.667,3.724Z"></path>
                         </svg>
                     </div>
 
-                    <hr />
+                    <hr className="md:hidden" />
                 </div>
                 <div className="w-full h-14 flex flex-col justify-center md:w-[25%]">
-                    <div className="w-full pb-2 flex items-center justify-between">
+                    <div className="w-full pb-2 flex md:flex-col items-center justify-between">
                         <h6 className="font-semibold pl-1">Legal</h6>
-                        <svg className="inline-block mr-2" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 9.333 5.333">
+                        <ul className="hidden md:block mt-1 md:ml-[2.3rem] md:text-gray-500">
+                            <li className="md:hover:text-[#ff642f]">Terms</li>
+                            <li className="md:hover:text-[#ff642f]">Conditions</li>
+                            <li className="md:hover:text-[#ff642f]">Cookies</li>
+                            <li className="md:hover:text-[#ff642f]">Copyright</li>
+                        </ul>
+                        <svg className="inline-block mr-2 md:hidden" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 9.333 5.333">
                             <path d="M1.138.2A.667.667,0,0,0,.2,1.138l4,4a.667.667,0,0,0,.943,0l4-4A.667.667,0,1,0,8.2.2L4.667,3.724Z"></path>
                         </svg>
                     </div>
-                    <hr />
+                    <hr className="md:hidden" />
                 </div>
                 <div className="w-full h-14 flex flex-col justify-center md:w-[25%]">
-                    <div className="w-full pb-2 flex items-center justify-between">
+                    <div className="w-full pb-2 flex md:flex-col items-center justify-between">
                         <h6 className="font-semibold pl-1">Follow</h6>
-                        <svg className="inline-block mr-2" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 9.333 5.333">
+                        <ul className="hidden md:block mt-1 md:ml-[1.5rem] md:text-gray-500">
+                            <li className="md:hover:text-[#ff642f]">Facebook</li>
+                            <li className="md:hover:text-[#ff642f]">Twitter</li>
+                            <li className="md:hover:text-[#ff642f]">Instagram</li>
+                            <li className="md:hover:text-[#ff642f]">Youtube</li>
+                        </ul>
+                        <svg className="inline-block mr-2 md:hidden" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 9.333 5.333">
                             <path d="M1.138.2A.667.667,0,0,0,.2,1.138l4,4a.667.667,0,0,0,.943,0l4-4A.667.667,0,1,0,8.2.2L4.667,3.724Z"></path>
                         </svg>
                     </div>
-                    <hr />
+                    <hr className="md:hidden" />
                 </div>
             </div>
-            <div className="w-full mt-4 md:col-start-1 md:col-end-3 md:flex md:flex-row md:justify-center md:h-[4rem]">
+            <hr className="hidden md:block md:col-start-1 md:col-end-3" />
+            <div className="w-full mt-4 md:col-start-1 md:col-end-3 md:flex md:flex-row md:justify-around md:h-[4rem]">
                 <div className="flex">
                     <a href="#" className="mr-6">
                         <svg data-name="feather-icon/facebook" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
