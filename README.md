@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# React + TypeScript + Tailwindcss + Vite
 
 Demo link - [https://shibin-abraham.github.io/tastebite/](https://shibin-abraham.github.io/tastebite/)
 
