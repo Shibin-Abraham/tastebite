@@ -7,7 +7,7 @@ Demo link - [https://shibin-abraham.github.io/tastebite/](https://shibin-abraham
 Open your terminal and then type:
 
 ```bash
-git clone https://github.com/Shibin-Abraham/tastebite
+git clone https://github.com/Shibin-Abraham/tastebite.git
 
 cd tastebite
 ```
